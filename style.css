@@ -1,0 +1,62 @@
+:root {
+  --position1: 0;
+  --position2: 0;
+}
+
+.move {
+  --position1: 80px;
+  --position2: 50px;
+}
+
+.move2 {
+  --position1:
+  --position2:
+}
+
+.move3 {
+ --position1:
+ --position2:
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #06283d;
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  background-color: #001a2b;
+  border-radius: 10%;
+}
+
+.login {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  position: relative;
+  top: var(--position1);
+  left: var(--position2);
+}
+
+input {
+  background-color: #033a5c;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 500px;
+}
